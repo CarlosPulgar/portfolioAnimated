@@ -28,41 +28,41 @@ const iconAnimation = (duration) => ({
 
 const Technologies = () => {
   return (
-    <div className='border-b border-neutral-800 pb-24'>
+    <div id='Tech' className='border-b border-neutral-800 pb-24'>
         <h2 className='my-20 text-center text-4xl'><span className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent'>Tecnologias</span></h2>
-        <div className="flex flex-wrap items-center justify-center gap-4">
+        <div className="flex flex-wrap  items-center justify-center gap-4">
             <motion.div 
             variants={iconAnimation(2.5)}
             initial='initial'
             animate='animate'
-            className="rounded-2xl border-4 border-neutral-800 p-4">
+            className="brn rounded-2xl border-4 border-neutral-800 p-4">
                 <TiHtml5 className='text-7xl text-[#E34C26]'/>
             </motion.div>
             <motion.div 
              variants={iconAnimation(2.2)}
              initial='initial'
-             animate='animate'className="rounded-2xl border-4 border-neutral-800 p-4">
+             animate='animate'className="brn rounded-2xl border-4 border-neutral-800 p-4">
                 <IoLogoCss3 className='text-7xl text-[#2965f1]'/>
             </motion.div>
             <motion.div
              variants={iconAnimation(1.9)}
              initial='initial'
              animate='animate' 
-            className="rounded-2xl border-4 border-neutral-800 p-4">
+            className="brn rounded-2xl border-4 border-neutral-800 p-4">
                 <TbBrandJavascript className='text-7xl text-yellow-400'/>
             </motion.div>
             <motion.div
              variants={iconAnimation(1.5)}
              initial='initial'
              animate='animate'
-            className="rounded-2xl border-4 border-neutral-800 p-4">
+            className="brn rounded-2xl border-4 border-neutral-800 p-4">
                 <RiReactjsFill className='text-7xl text-cyan-400'/>
             </motion.div>
             <motion.div
              variants={iconAnimation(2.5)}
              initial='initial'
              animate='animate'
-            className="rounded-2xl border-4 border-neutral-800 p-4">
+            className="brn rounded-2xl border-4 border-neutral-800 p-4">
                 <TbBrandNextjs className='text-7xl text-metal'/>
             </motion.div>
             
@@ -70,14 +70,14 @@ const Technologies = () => {
              variants={iconAnimation(2.2)}
              initial='initial'
              animate='animate'
-            className="rounded-2xl border-4 border-neutral-800 p-4">
+            className="brn rounded-2xl border-4 border-neutral-800 p-4">
                 <FaNodeJs className='text-7xl text-[#44883e]'/>
             </motion.div>
             <motion.div
              variants={iconAnimation(2.7)}
              initial='initial'
              animate='animate'
-            className="rounded-2xl border-4 border-neutral-800 p-4">
+            className="brn rounded-2xl border-4 border-neutral-800 p-4">
                 <FaJava className='text-7xl text-white'/>
             </motion.div>
            
@@ -85,7 +85,7 @@ const Technologies = () => {
              variants={iconAnimation(2)}
              initial='initial'
              animate='animate'
-            className="rounded-2xl border-4 border-neutral-800 p-4">
+            className="brn rounded-2xl border-4 border-neutral-800 p-4">
                 <SiMysql className='text-7xl text-[#00758F]'/>
             </motion.div>
            
@@ -93,7 +93,7 @@ const Technologies = () => {
              variants={iconAnimation(3)}
              initial='initial'
              animate='animate'
-            className="rounded-2xl border-4 border-neutral-800 p-4">
+            className="brn rounded-2xl border-4 border-neutral-800 p-4">
                 <GrDocker className='text-7xl text-[#0db7ed]'/>
             </motion.div>
         </div>
