@@ -1,5 +1,5 @@
 import React from "react";
-import { HERO_CONTENT } from "../constants/index";
+import { HERO_CONTENT2 } from "../constants/index";
 import profilePic from "../assets/wolf.jpg";
 import { motion } from "framer-motion";
 
@@ -32,7 +32,7 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              Web developer
+              Front-end
             </motion.span>
             <motion.p
               variants={container(0.9)}
@@ -40,13 +40,13 @@ const Hero = () => {
               animate="visible"
               className="my-2 max-w-xl py-6 font-light tracking-tighter"
             >
-              {HERO_CONTENT}
+              {HERO_CONTENT2}
             </motion.p>
           </div>
         </div>
         <div className=" w-full lg:w-1/2 lg:p-8">
-          <div className="flex justify-center">
-            <motion.img
+          <div className="flex justify-center ">
+            <motion.img className="rounded-2xl"
              
               initial={{x: 100, opacity: 0}}
               animate={{ x: 0, opacity: 1 }}

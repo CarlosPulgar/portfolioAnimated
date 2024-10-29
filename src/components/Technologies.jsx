@@ -2,13 +2,16 @@ import React from 'react'
 import { RiReactjsFill } from 'react-icons/ri'
 import { TbBrandNextjs } from 'react-icons/tb'
 import { TbBrandJavascript } from 'react-icons/tb'
-import { FaNodeJs } from 'react-icons/fa'
+import { FaGithubAlt, FaGithubSquare, FaNodeJs } from 'react-icons/fa'
 import { FaJava } from 'react-icons/fa'
 import { SiMysql } from "react-icons/si";
 import { TiHtml5 } from 'react-icons/ti'
 import { IoLogoCss3 } from 'react-icons/io'
 import { GrDocker } from "react-icons/gr";
 import { motion } from "framer-motion";
+import { RiTailwindCssLine } from "react-icons/ri";
+import { FaGithub } from "react-icons/fa";
+import { FaGitAlt } from "react-icons/fa";
 
 const iconAnimation = (duration) => ({
 
@@ -63,7 +66,7 @@ const Technologies = () => {
              initial='initial'
              animate='animate'
             className="brn rounded-2xl border-4 border-neutral-800 p-4">
-                <TbBrandNextjs className='text-7xl text-metal'/>
+                <RiTailwindCssLine  className='text-7xl text-metal'/>
             </motion.div>
             
             <motion.div 
@@ -71,14 +74,14 @@ const Technologies = () => {
              initial='initial'
              animate='animate'
             className="brn rounded-2xl border-4 border-neutral-800 p-4">
-                <FaNodeJs className='text-7xl text-[#44883e]'/>
+                <FaGitAlt className='text-7xl text-[#c72b2b]'/>
             </motion.div>
             <motion.div
              variants={iconAnimation(2.7)}
              initial='initial'
              animate='animate'
             className="brn rounded-2xl border-4 border-neutral-800 p-4">
-                <FaJava className='text-7xl text-white'/>
+                <FaGithubSquare className='text-7xl text-white'/>
             </motion.div>
            
             <motion.div 

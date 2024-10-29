@@ -1,6 +1,6 @@
 import React from "react";
 import aboutImg from "../assets/about.jpg";
-import { ABOUT_TEXT } from "../constants";
+import { ABOUT_TEXT_ESP } from "../constants";
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -29,7 +29,7 @@ const About = () => {
           className="w-full lg:w-1/2"
         >
           <div className="flex justify-center lg:justify-start">
-            <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
+            <p className="my-2 max-w-xl py-6">{ABOUT_TEXT_ESP}</p>
           </div>
         </motion.div>
       </div>
