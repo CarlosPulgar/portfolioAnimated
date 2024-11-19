@@ -6,9 +6,9 @@ import project4 from "../assets/projects/project-4.jpg";
 var enlace = document.createElement("a");
 enlace.href = "#";
 var enlace2 = document.createElement("a");
-enlace2.href = "#";
+enlace2.href = "https://climate-sense-6sebd0cxn-carlospulgars-projects.vercel.app/";
 var enlace3 = document.createElement("a");
-enlace3.href = "#";
+enlace3.href = "https://calender-and-notes-i45rtnfd8-carlospulgars-projects.vercel.app/";
 var enlace4 = document.createElement("a");
 enlace4.href = "https://encriptador-de-textos.vercel.app/";
 
